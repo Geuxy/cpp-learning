@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
             std::cout << "File exists!" << std::endl;
             return 1;
         } else {
-            std::cout << "File doesnt exist is unreadable!" << std::endl;
+            std::cout << "File doesnt exist or is unreadable!" << std::endl;
             return 0;
         }
     }
